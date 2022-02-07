@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">WhiskY</a>
+        <ul>
+            <li><a href="#home" class="active" onclick="toggle()">Introducing</a></li>
+            <li><a href="#scotch" onclick="toggle()">Scotch</a></li>
+            <li><a href="#regions" onclick="toggle()">Scotch Regions</a></li>
+            <li><a href="#irish" onclick="toggle()">Irish Whiskey</a></li>
+            <li><a href="#american" onclick="toggle()">American</a></li>
+            <li><a href="#canadian" onclick="toggle()">Canadian</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <section id="home">
+        <div class="banner">
+            <h2 id="text">Whisky</h2>
+            <div class="clouds">
+                <img src="img/cloud1.png" style="--i:1;">
+                <img src="img/cloud2.png" style="--i:2;">
+                <img src="img/cloud3.png" style="--i:3;">
+                <img src="img/cloud4.png" style="--i:4;">
+                <img src="img/cloud5.png" style="--i:5;">
+                <img src="img/cloud1.png" style="--i:10;">
+                <img src="img/cloud2.png" style="--i:9;">
+                <img src="img/cloud3.png" style="--i:8;">
+                <img src="img/cloud4.png" style="--i:7;">
+                <img src="img/cloud5.png" style="--i:6;">
+            </div>
+        </div>
+        <div class="intro">
+            <h2>Introducing to the great world of Whiskey</h2>
+            <p>Bourbon, Scotch, and rye whiskey, oh my! In the wide world of whiskey, there exist many 
+                classifications, styles and origins—and these labels can be hard to grasp, particularly for those who are 
+                just beginning to dabble. What separates whiskey from whisky? How do single malts and blends differ?  
+                Below, a guide to understanding whisk(e)y, where it comes from, and what it all means.
+                To start, let's get whisky versus whiskey out of the way. The basic rule is that if the spirit is from Scotland, 
+                Japan or Canada, it's spelled whisky. If it's made in the United States or Ireland, it's whiskey. Yet, Maker's Mark 
+                and Old Forester are two American brands that call themselves whisky. So, does the spelling really matter? No.</p>
+            <a href="#scotch">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Read More
+            </a>
+        </div>
+    
+    </section>
+    <section id="scotch">
+        <h1>Types of different Scotch</h1>
+        <p>The tenants of Scotch whisky are that it comes from Scotland and is aged there for a minimum of three years 
+            in oak barrels. Today, the majority of Scotch is aged in used bourbon barrels, with sherry and other used casks 
+            also playing a role. Scotch is typically distilled twice and the spirit falls into several strict classifications.</p>
+        <div class="slide">
+            <div class="cnt">
+                <div class="imgBox">
+                    <img src="img/SingleMalt.jpg">
+                </div>
+                <div class="contentBox">
+                    <div>
+                        <h2>Single Malt</h2>
+                        <p>Single malt Scotch whisky refers to whisky that is made solely from malted barley, and is produced at a single distillery.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="cnt">
+                <div class="imgBox">
+                    <img src="img/SingleGrain.jpg">
+                </div>
+                <div class="contentBox">
+                    <div>
+                        <h2>Single Grain</h2>
+                        <p>Single grain whisky is made at a single distillery, but incorporates additional grains in the mash bill beyond malted barley. 
+                        Single grain whisky is a rare commodity on its own since most is used in blends.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="cnt">
+                <div class="imgBox">
+                    <img src="img/BlendedMalt.jpg">
+                </div>
+                <div class="contentBox">
+                    <div>
+                        <h2>Blended Malt</h2>
+                        <p>Blended malt whisky is a blend of two or more single malt Scotch whiskies from different distilleries.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="cnt">
+                <div class="imgBox">
+                    <img src="img/BlendedGrain.jpg">
+                </div>
+                <div class="contentBox">
+                    <div>
+                        <h2>Blended Grain</h2>
+                        <p>A blend of two or more single grain whiskies from different distilleries. As with single grain whisky, this too is a very small category for Scotch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="cnt">
+                <div class="imgBox">
+                    <img src="img/BlendedScotch.jpg">
+                </div>
+                <div class="contentBox">
+                    <div>
+                        <h2>Blended Scotch</h2>
+                        <p>A blend of one or more single malts with one or more single grains. The vast majority of Scotch sold around the world is blended.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="regions">
+        <div class="regions">
+            <h1>Scotch Whisky Regions</h1>
+                <div class="box">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="img/Campbeltown.jpg">
+                        </div>
+                        <div class="contentreg">
+                            <h2>Campbeltown</h2>
+                            <p>Once home to dozens of distilleries, Campbeltown is more of a past relic, with only three distilleries still operating.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="img/Highlands.jpg">
+                        </div>
+                        <div class="contentreg">
+                            <h2>Highlands</h2>
+                            <p>The largest geographical region, the Highlands are well represented with brands such as The Macallan, Oban, Old Pulteney, and Glenmorangie.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="img/Islay.jpg">
+                        </div>
+                        <div class="contentreg">
+                            <h2>Islay</h2>
+                            <p>Home to big, smoky, peaty, salty whiskies, such as Ardbeg and Laphroaig. In total, the small 
+                                island has eight distilleries, also including Bowmore, Bruichladdich, Caol Ila, Kilchoman and Lagavulin.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="img/Lowlands.jpg">
+                        </div>
+                        <div class="contentreg">
+                            <h2>Lowlands</h2>
+                            <p>Another diminished region, like Campbeltown, there are only a few distilleries remaining in the Lowlands.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="img/Speyside.jpg">
+                        </div>
+                        <div class="contentreg">
+                            <h2>Speyside</h2>
+                            <p>Speyside has the largest collection of distilleries of any Scotch region, about half of the country's total. That includes many of its most iconic brands 
+                                as well, such as The Glenlivet, Glenfiddich, Aberlour and Balvenie. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="img/Islands.jpg">
+                        </div>
+                        <div class="contentreg">
+                            <h2>Islands</h2>
+                            <p>The unofficial sixth region is the Islands, which represents all of the islands except for Islay. That includes distilleries such as Highland Park, Talisker and Arran.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section id="irish">
+        <div>
+            <h2>Irish Whiskey</h2>
+            <p>Of course, Irish whiskey must hail from Ireland and, like Scotch, has a three year age minimum. From there though, differences emerge. For instance, most Irish whiskey is triple distilled. 
+                Another technical difference between Irish whiskey and Scotch whisky is that in Ireland distillers can add enzymes to convert starches to sugars before fermentation.
+                Ireland's classifications are less rigid than Scotland's, but a distiller must add the term "blended" to any product including two or more separately distilled whiskeys. Blended Irish whiskey is by far the bulk of the market.
+                Single pot still whiskey is a classification which refers to Irish whiskey made at a single distillery from a pot still, incorporating a mix of malted and unmalted barley.
+                There are only 10 currently operating distilleries in Ireland, a surprise to many. Further, seven of those have popped up in the last decade, with other new projects in the works. 
+                The mainstays include Old Bushmills, which first opened in 1784 and remains the oldest licensed distillery in the world; New Midleton Distillery, open since 1975 and makers of Jameson, 
+                Midleton, Powers and Paddy; and Cooley Distillery, open since 1987.</p>
+        </div>
+        <img src="img/irish.jpg.webp">
+    </section>
+    <section id="american">
+        <div>
+            <h2>American</h2>
+            <p>American whiskey is more than bourbon. Let's clear up what it all means.
+                <ul>
+                    <li>Bourbon: Bourbon is an American whiskey which contains a minimum of 51 percent corn, and is aged in charred, new oak barrels. The mandate that bourbon rest in only new oak barrels is a key reason why used bourbon 
+                    barrels end up aging Scotch, amongst other products. Contrary to a commonly held belief, bourbon does not need to be made in Kentucky, but can be produced anywhere in the United States.</li>
+                    <li>Rye: American rye whiskey must be made with a minimum of 51 percent rye. Like bourbon, it has to be aged in charred, new oak barrels. Similarly, wheat whiskey must have a minimum of 51 percent wheat.</li>
+                    <li>Tennessee Whiskey: An offshoot of bourbon, Tennessee whiskey is actually its own category. Laws require that is be produced in Tennessee, and meet the requirements of a bourbon. Prior to aging though, it undergoes 
+                    an extra charcoal filtering process known as the "Lincoln County Process." Jack Daniel's dominates the category.</li>
+                </ul>
+                More American Classifications
+                <ul>
+                    <li>Bottled in Bond: Bottled in Bond, or "bonded" whiskey, refers to whiskey made during a single defined season, at a single distillery. It's aged for a minimum of four years in a federally bonded warehouse and bottled at 50 percent ABV.</li>
+                    <li>Moonshine: Moonshine is not simply white whiskey. Traditionally, it refers to illegally produced, unaged whiskey made from pot stills using an all corn or mostly corn mash bill. Other grains or sugar may also be incorporated.</li>
+                    <li>Straight: Straight whiskey is any whiskey which has been aged for a minimum of two years, and does not include any added colorings or flavorings. If aged less than four years, it must list the age on the label. When applied to 
+                    bourbon or rye, it's required to meet all other standards for that classification.</li>
+                    <li>Undefined "American whiskey": With literally hundreds of craft distilleries popping up in the United States, there's a whole lot of whiskey being made that doesn't neatly fall into classification as bourbon or rye. 
+                    There's no legally defined "American single malt" for instance, although that is a style distillers are now making.</li>
+                </ul>
+            </p>
+        </div>
+        <img src="img/bourbon.jpg">
+    </section>
+    <section id="canadian">
+        <div>
+            <h2>Canadian</h2>
+            <p>Canadian whisky is commonly called and labeled as "rye whisky," even though it doesn't meet the American definition of having a minimum of 51 percent rye. In fact, legally speaking, Canadian "rye whisky" may not have any rye at all!
+                Instead, the spirit is based on the tradition of Canadian whisky, which was at one point known for its rye flavoring and profile. Most Canadian whisky today actually incorporates a much higher percentage of corn than rye. 
+                This is typically accomplished with blending, using a small percentage of an all rye, or rye heavy whiskey to flavor a blend made from bourbon-style whiskies and other grain whiskies.
+                Also, a straight Canadian rye whisky must be aged for a minimum of three years in 700-liter wooden barrels.</p>
+        </div>
+        <img src="img/canadian.jpg">
+    </section>
+    <section id="sci">
+            <ul>
+                <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <script type="text/javascript">
+        function toggle() {
+            var header = document.getElementById("header")
+            header.classList.toggle('active')
+        }
+
+        let text = document.getElementById('text');
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            text.style.marginBottom = value * 2 + 'px';
+        })
+    </script>
+</body>
+</html>
